@@ -1,0 +1,30 @@
+{
+  "name": "play-server",
+  "version": "0.0.1",
+  "description": "",
+  "main": "lib/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint '**/*.js'",
+    "start": "node server.js"
+  },
+  "bin": {
+    "play-server": "./server.js"
+  },
+  "author": "ajegou",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "serve-favicon": "^2.5.0",
+    "tree-kill": "^1.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.20.0",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1"
+  }
+}

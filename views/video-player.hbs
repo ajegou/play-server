@@ -1,0 +1,52 @@
+<h3>Currently playing: {{title}}</h3>
+<h3><a href="/list/">Back to list</a></h3>
+
+<form action="command/pause" method="post">
+  <input type="submit" name="pause" value="Pause" />
+</form>
+
+<form action="command/forward" method="post">
+  <input type="submit" name="forward" value="Forward 30s" />
+</form>
+<form action="command/backward" method="post">
+  <input type="submit" name="backward" value="Backward 30s" />
+</form>
+<form action="command/bigForward" method="post">
+  <input type="submit" name="bigForward" value="Forward 10m" />
+</form>
+<form action="command/bigBackward" method="post">
+  <input type="submit" name="bigBackward" value="Backward 10m" />
+</form>
+
+<form action="command/volumeUp" method="post">
+  <input type="submit" name="volumeUp" value="Volume Up" />
+</form>
+<form action="command/volumeDown" method="post">
+  <input type="submit" name="volumeDown" value="Volume Down" />
+</form>
+
+<form action="command/quit" method="post">
+  <input type="submit" name="quit" value="Quit" />
+</form>
+
+<form action="command/enableSubtitles" method="post">
+  <input type="submit" name="enableSubtitles" value="Toggle Subtitles" />
+</form>
+<form action="command/hideSubtitles" method="post">
+  <input type="submit" name="hideSubtitles" value="Hide Subtitles" />
+</form>
+<form action="command/showSubtitles" method="post">
+  <input type="submit" name="showSubtitles" value="Show Subtitles" />
+</form>
+<form action="command/nextSubtitles" method="post">
+  <input type="submit" name="nextSubtitles" value="Next Subtitles" />
+</form>
+<form action="command/increaseSubDelay" method="post">
+  <input type="submit" name="increaseSubDelay" value="Increase Subs Delay" />
+</form>
+<form action="command/decreaseSubDelay" method="post">
+  <input type="submit" name="decreaseSubDelay" value="Decrease Subs Delay" />
+</form>
+<form action="command/nextAudio" method="post">
+  <input type="submit" name="nextAudio" value="Next Audio" />
+</form>
